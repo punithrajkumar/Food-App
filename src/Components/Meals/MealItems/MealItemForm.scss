@@ -1,0 +1,49 @@
+@import "../../../Scss/Styles.scss";
+
+  .form {
+    text-align: right;
+  }
+  
+  .form button {
+    font: inherit;
+    cursor: pointer;
+    background: $Cart-button-color;
+    border: 1px solid $Cart-button-color-on-hover;
+    color: white;
+    padding: 0.25rem 2rem;
+    border-radius: 20px;
+    font-weight: bold;
+  }
+  
+  .form button:hover,
+  .form button:active {
+    background-color: $Cart-button-color-on-hover;
+    border-color: $Cart-button-color;
+  }
+
+
+
+
+
+  // .form {
+  //   text-align: right;
+  // }
+  
+  // .form .btn {
+  //   font: inherit;
+  //   cursor: pointer;
+  //   background: $Cart-button-color;
+  //   border: 1px solid $Cart-button-color-on-hover;
+  //   color: white;
+  //   padding: 0.25rem 2rem;
+  //   border-radius: 20px;
+  //   font-weight: bold;
+  // }
+  
+  // .form .btn:hover,
+  // .form .btn:active {
+  //   background: $Cart-button-color-on-hover;
+  //   border-color: $Cart-button-color;
+  // }
+
+

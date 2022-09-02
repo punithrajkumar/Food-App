@@ -1,0 +1,89 @@
+@import "../../Scss/Styles.scss";
+
+.button {
+  color: aliceblue;
+  cursor: pointer;
+  font: inherit;
+  font-weight: bold;
+  border: none;
+  padding: 0.5rem;
+  background: linear-gradient(to bottom, #ff0000 0%, #ff3300 100%);
+  position: absolute;
+  right: 1rem;
+  align-items: center;
+  display: flex;
+  border-radius: 1em;
+}
+
+.button:hover,
+.button:active {
+  background: $Cart-button-color-on-hover;
+}
+
+.icon {
+  width: 1.35rem;
+  height: 1.35rem;
+  margin-right: 0.5rem;
+}
+
+.badge {
+  background-color: $Badge-color;
+  padding: 0.25rem 1rem;
+  border-radius: 25px;
+  margin-left: 1rem;
+  font-weight: bold;
+}
+
+.button:hover .badge,
+.button:active .badge {
+  background-color: $Badge-on-hover;
+}
+
+.bump {
+  animation: bump 300ms ease-out;
+}
+
+@keyframes bump {
+  0% {
+    transform: scale(1);
+  }
+  10% {
+    transform: scale(0.9);
+  }
+  30% {
+    transform: scale(1.1);
+  }
+  50% {
+    transform: scale(1.15);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+/*  .btn {
+     color: aliceblue;
+     cursor: pointer;
+     font: inherit;
+     font-weight: bold;
+     border: none;
+     padding: 0.5rem;
+     background: $Cart-button-color;
+     position: absolute;
+     right: 1rem;
+     align-items: center;
+     display: flex;
+     border-radius: 1em;
+   }
+
+   .btn:hover{
+     background:$Cart-button-color-on-hover;
+   }
+
+   .btn .badge{
+     background-color: $Badge-color;
+       padding: 0.25rem 1rem;
+     border-radius: 25px;
+     margin-left: 0.5rem;
+     font-weight: bold;
+   } */
